@@ -19,10 +19,10 @@ function countPrimes(number){
           prime_numbers.push(i);
         }
   
-        console.log(i);
       }
     }
     let prime_number_count = prime_numbers.length;
+    console.log(prime_numbers);
   
     return prime_number_count;
   }
